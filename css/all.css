@@ -541,10 +541,10 @@ main a {
 
 .foodmenu a {
     display: inline-block;
-    width: 100%;
+    width: 95%;
     padding-top: 10px;
     padding-bottom: 10px;
-    padding-left: 10px;
+    padding-left: 5%;
 }
 
 .foodmenu a:hover {
