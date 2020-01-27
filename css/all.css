@@ -547,6 +547,11 @@ main a {
     padding-left: 5%;
 }
 
+.foodmenu .burger {
+    color: #EFE9E7;
+    background-color: #5E392D;
+}
+
 .foodmenu a:hover {
     color: #EFE9E7;
     background-color: #5E392D;
