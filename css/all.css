@@ -176,24 +176,41 @@ nav {
 }
 
 .menu {
+    height: 56px;
     color: white;
     position: absolute;
     right: 27px;
-    top: 18px;
+    top: 0;
+}
+
+.menu ul {
+    height: 56px;
 }
 
 .menu li {
     float: left;
-    margin: 0 15px;
 }
 
 .menu a {
+    display: block;
+    padding: 0px 15px;
+    height: 56px;
+    line-height: 56px;
+    padding-right: 15px;
     text-decoration: none;
     color: #A09A99;
 }
 
+.menu .order {
+    background-color: white;
+    color: black;
+    opacity: 0.8;
+}
+
 .menu a:hover {
-    color: white;
+    background-color: white;
+    color: black;
+    opacity: 0.8;
 }
 
 .showmenu {
@@ -530,7 +547,6 @@ main a {
     margin-bottom: 16px;
 }
 
-,
 .foodmenu ul {
     width: 100%;
 }
