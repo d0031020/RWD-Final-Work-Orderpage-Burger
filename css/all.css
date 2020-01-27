@@ -684,3 +684,8 @@ main a {
     line-height: 28px;
     border-radius: 5px;
 }
+
+.photolist li a:hover {
+    background-color: #EC6830;
+    color: #EFE9E7;
+}
